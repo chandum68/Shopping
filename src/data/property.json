@@ -1,0 +1,44 @@
+[
+  {
+    "id":1,
+    "name":"Birla House",
+    "type":"House",
+    "price":22000
+  },
+  {
+    "id":2,
+    "name":"Birla House2",
+    "type":"Home",
+    "price":23000
+  },
+  {
+    "id":3,
+    "name":"Birla House3",
+    "type":"House2",
+    "price":24000
+  },
+  {
+    "id":4,
+    "name":"Birla House 4",
+    "type":"House4",
+    "price":52000
+  },
+  {
+    "id":5,
+    "name":"Birla House 5",
+    "type":"House5",
+    "price":52000
+  },
+  {
+    "id":6,
+    "name":"Birla House 6",
+    "type":"House6",
+    "price":52000
+  },
+  {
+    "id":7,
+    "name":"Birla House 7",
+    "type":"House7",
+    "price":52000
+  }
+]

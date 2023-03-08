@@ -1,0 +1,44 @@
+<div class="container-fluid">
+<div class="card">
+    <div class="card-header">
+        Add New Property
+    </div>
+    <div class="card-body">
+    <form (ngSubmit)="onSbmit(Form)" #Form="ngForm">
+        <div class="form-group col-12">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" #name="ngModel" ngModel name="name" required>
+            <span *ngIf="!name.valid && name.touched" class="error-txt">
+                please enter Name
+            </span>
+        </div>  
+        <div class="form-group col-12">
+            <label for="name">Type</label>
+            <input type="text" class="form-control" #type="ngModel" ngModel name="type" >
+            <span *ngIf="!type.valid && type.touched" class="error-txt">
+                please enter Price
+            </span>
+        </div>  
+        <div class="form-group col-12">
+            <label for="name">Price</label>
+            <input type="text" class="form-control" #price="ngModel" ngModel name="price" >
+            <span *ngIf="!price.valid && price.touched" class="error-txt">
+                please enter Price
+            </span>
+        </div>  
+        <div class="form-group col-12">
+            <label for="name">Address</label>
+            <textarea type="text" class="form-control" ngModel name="address"></textarea>
+        </div>  <br>
+        <div class="form-group col-12">
+            <button [disabled] = "!Form.valid" type="submit" class="btn btn-primary">Save</button>&nbsp;
+            <button type="reset" class="btn btn-primary">cancel</button>
+        </div>  
+      </form>
+    </div>
+    <div class="card-footer">
+
+    </div>
+
+</div>
+</div>
